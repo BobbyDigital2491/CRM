@@ -6,7 +6,7 @@ import { disableAutoLogin, enableAutoLogin } from "@/hooks";
 import { API_BASE_URL, API_URL, client, dataProvider } from "./data";
 
 export const emails = [
-    "michael.scott@dundermifflin.com",
+    "86filmz@gmail.com",
     "jim.halpert@dundermifflin.com",
     "pam.beesly@dundermifflin.com",
     "dwight.schrute@dundermifflin.com",

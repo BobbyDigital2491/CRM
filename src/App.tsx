@@ -2,7 +2,7 @@ import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 
 import { ErrorComponent, useNotificationProvider } from "@refinedev/antd";
 import { Authenticated, Refine } from "@refinedev/core";
-import { DevtoolsPanel, DevtoolsProvider } from "@refinedev/devtools";
+import { DevtoolsProvider } from "@refinedev/devtools";
 import routerProvider, {
     CatchAllNavigate,
     DocumentTitleHandler,
@@ -93,6 +93,7 @@ const App: React.FC = () => {
                                     liveMode: "auto",
                                     syncWithLocation: true,
                                     warnWhenUnsavedChanges: true,
+                                    projectId: "J01rND-qtvsLA-gZsW3l"
                                 }}
                             >
                                 <Routes>
@@ -362,7 +363,7 @@ const App: React.FC = () => {
                                 <UnsavedChangesNotifier />
                                 <DocumentTitleHandler />
                             </Refine>
-                            <DevtoolsPanel />
+                            
                         </DevtoolsProvider>
                     </AntdApp>
                 </ConfigProvider>

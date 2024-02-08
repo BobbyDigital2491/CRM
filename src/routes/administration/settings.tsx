@@ -35,7 +35,7 @@ export const SettingsPage = () => {
             >
                 <Logo width={96} height={96} />
                 <Text style={{ fontSize: "32px", fontWeight: 700 }}>
-                    Globex Corporation
+                    Training Wheels
                 </Text>
             </Space>
             <Row
